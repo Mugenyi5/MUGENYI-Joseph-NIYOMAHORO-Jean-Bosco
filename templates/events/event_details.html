@@ -1,0 +1,11 @@
+{% extends 'base.html' %}
+{% block content %}
+<h1>
+    {% if name %}
+        {{ name }} Details
+    {% else %}
+        {{ error }}
+    {% endif %}
+</h1>
+{% endblock %}
+
